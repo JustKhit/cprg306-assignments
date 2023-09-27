@@ -19,6 +19,11 @@ export default function Page() {
             Head to Week3 here (Shopping List)
           </Link>
         </p>
+        <p className="mt-4">
+          <Link className="text-indigo-600 hover:underline" href="../week4">
+            Head to Week4 here (Create a new item)
+          </Link>
+        </p>
       </main>
     </div>
   );

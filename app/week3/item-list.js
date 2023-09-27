@@ -1,4 +1,4 @@
-import Item from './item'; // assuming Item is in the same directory
+import Item from "./item"; // assuming Item is in the same directory
 
 const ItemList = () => {
   const items = [
@@ -61,21 +61,21 @@ const ItemList = () => {
       name: "hand soap 🧼",
       quantity: 4,
       category: "household",
-    }
+    },
   ];
 
   return (
     <div className="grid grid-cols-3 gap-4">
       {items.map((item, index) => (
-        <Item 
-          key={index} 
-          name={item.name} 
-          quantity={item.quantity} 
+        <Item
+          key={index}
+          name={item.name}
+          quantity={item.quantity}
           category={item.category}
         />
       ))}
     </div>
   );
-}
+};
 
 export default ItemList;
