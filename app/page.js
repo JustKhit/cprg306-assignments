@@ -24,6 +24,16 @@ export default function Page() {
             Head to Week4 here (Create a new item)
           </Link>
         </p>
+        <p className="mt-4">
+          <Link className="text-indigo-600 hover:underline" href="../week5">
+            Head to Week5 here (Sorting)
+          </Link>
+        </p>
+        <p className="mt-4">
+          <Link className="text-indigo-600 hover:underline" href="../week6">
+            Head to Week6 here (Add a new item)
+          </Link>
+        </p>
       </main>
     </div>
   );
