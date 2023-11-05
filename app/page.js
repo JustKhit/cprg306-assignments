@@ -11,27 +11,32 @@ export default function Page() {
         <StudentInfo />
         <p className="mt-4">
           <Link className="text-indigo-600 hover:underline" href="../week2">
-            Head to Week2 here (Student Info)
+            Head to Week2 here (Introduction to React)
           </Link>
         </p>
         <p className="mt-4">
           <Link className="text-indigo-600 hover:underline" href="../week3">
-            Head to Week3 here (Shopping List)
+            Head to Week3 here (Components and Props)
           </Link>
         </p>
         <p className="mt-4">
           <Link className="text-indigo-600 hover:underline" href="../week4">
-            Head to Week4 here (Create a new item)
+            Head to Week4 here (Interactivity)
           </Link>
         </p>
         <p className="mt-4">
           <Link className="text-indigo-600 hover:underline" href="../week5">
-            Head to Week5 here (Sorting)
+            Head to Week5 here (Handling Lists)
           </Link>
         </p>
         <p className="mt-4">
           <Link className="text-indigo-600 hover:underline" href="../week6">
-            Head to Week6 here (Add a new item)
+            Head to Week6 here (Managing State)
+          </Link>
+        </p>
+        <p className="mt-4">
+          <Link className="text-indigo-600 hover:underline" href="../week7">
+            Head to Week7 here (Fetching Data)
           </Link>
         </p>
       </main>
