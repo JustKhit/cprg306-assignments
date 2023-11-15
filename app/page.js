@@ -39,6 +39,11 @@ export default function Page() {
             Head to Week7 here (Fetching Data)
           </Link>
         </p>
+        <p className="mt-4">
+          <Link className="text-indigo-600 hover:underline" href="../week8">
+            Head to Week8 here (Firebase Auth)
+          </Link>
+        </p>
       </main>
     </div>
   );
